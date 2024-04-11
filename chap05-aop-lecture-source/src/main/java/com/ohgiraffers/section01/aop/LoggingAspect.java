@@ -82,7 +82,7 @@ public class LoggingAspect {
 
     /* 필기. Around Advice
     *   Around 는 JoinPoint 의 앞과 뒤를 모두 장악한다.
-    *   원본 JoinPoint(타겟 메소드)를 언제 실해할 지, 실행하지않을 지, 계속 실행할 지 결정한다.
+    *   원본 JoinPoint(타겟 메소드)를 언제 실행할 지, 실행하지않을 지, 계속 실행할 지 결정한다.
     *   Around Advice 는 ProceedingJoinPoint 를 매개변수로 받는다.
     *  */
 
